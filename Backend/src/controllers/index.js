@@ -1,3 +1,3 @@
 import {info} from './info-controller.js';
-
-export { info };
+import {signup,login} from './user-controller.js';
+export { info , signup,login};
